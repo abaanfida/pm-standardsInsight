@@ -37,5 +37,6 @@ cd pm-standardsInsight
 pip install sqlalchemy database pymupdf fastapi streamlit time pandas plotly groq pydantic
 ### Run
 uvicorn backend:app --reload
+
 streamlit run Home.py
 
